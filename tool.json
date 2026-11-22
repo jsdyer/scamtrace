@@ -1,16 +1,23 @@
 {
-  "id": "coolcode-tool-template",
-  "title": "CoolCode Tool Starter",
-  "description": "A browser-only example that trims lines and removes exact duplicates.",
+  "id": "scamtrace",
+  "title": "ScamTrace",
+  "description": "Trace Canadian scam warnings and takedowns through dated public records, then add your own observations.",
   "category": "security",
-  "tags": ["text", "lines", "duplicates"],
+  "tags": [
+    "impersonation",
+    "phishing",
+    "takedowns",
+    "timeline",
+    "Canada",
+    "public records"
+  ],
   "icon": "scan-search",
-  "url": "/coolcode-tool-template/",
-  "source": "https://github.com/jsdyer/coolcode-tool-template",
+  "url": "/scamtrace/",
+  "source": "https://github.com/jsdyer/scamtrace",
   "hosting": "project",
   "access": "browser",
   "data_info": {
-    "mode": "local",
-    "detail": "The browser reads the text you paste and compares its lines."
+    "mode": "mixed",
+    "detail": "Reviewed notices from Canadian venues, regulators and public bodies, with optional timeline entries kept in the current tab."
   }
 }

@@ -1,0 +1,73 @@
+{
+  "reviewed": "2026-11-22",
+  "cases": [
+    {
+      "id": "capilano", "title": "Capilano Suspension Bridge Park", "place": "North Vancouver, BC", "sector": "Attraction tickets", "outcome": "Warning issued",
+      "summary": "The park identifies two unauthorized ticket domains by name and warns visitors about advertisements using its identity.",
+      "domains": ["capilanobridge.com", "capbridge.ltd"],
+      "events": [
+        {"date": "2026-11-22", "dateKind": "Notice reviewed", "title": "Park names two ticket sellers", "detail": "Capilano says it refuses admission on tickets bought from either listed domain. Its notice directs buyers to the park and authorized partners.", "publisher": "Capilano Suspension Bridge Park", "source": "https://www.capbridge.com/tickets-and-hours/"}
+      ],
+      "gap": "The park’s notice gives no first-report date, registrar response or date either domain was suspended. A warning alone gives no time-to-removal measurement."
+    },
+    {
+      "id": "rotor", "title": "Rotor Investments brand hijacking", "place": "Manitoba", "sector": "Investment services", "outcome": "Site action confirmed",
+      "summary": "The Manitoba Securities Commission identified a suspended website that had used the name of a real Canadian company.",
+      "domains": ["rotorinvestments.ca"],
+      "events": [
+        {"date": "2026-11-16", "dateKind": "Alert published", "title": "Regulator confirms a suspension", "detail": "The commission says the domain used Rotor Investments Limited’s name to advertise financial services and had already been suspended when it issued the alert. The named company was the impersonated party.", "publisher": "Manitoba Securities Commission via CSA", "source": "https://www.securities-administrators.ca/investor-alerts/rotor-investments-limited/"}
+      ],
+      "gap": "The alert establishes suspension by November 16. It does not identify the first report, the suspension date or who requested it."
+    },
+    {
+      "id": "green-p", "title": "Green P parking payment redirects", "place": "Toronto, ON", "sector": "Parking payments", "outcome": "Referral process documented",
+      "summary": "Stickers on public parking machines redirected people attempting to pay. The Toronto Parking Authority describes who receives the reports.",
+      "domains": [],
+      "events": [
+        {"date": "2026-05-01", "dateKind": "Warning published", "title": "Parking authority describes the referral", "detail": "Maintenance staff and police enforcement officers flag fraudulent stickers to the parking authority. It reports them to City of Toronto Cyber Security and says the associated sites are shut down.", "publisher": "Toronto Parking Authority", "source": "https://parking.greenp.com/news/be-alert-fraudulent-qr-codes/"}
+      ],
+      "gap": "The notice describes the reporting chain but supplies no incident count or referral-to-closure dates. A municipal records lead is the parking authority’s incident/referral log for the period covered by its May warning."
+    },
+    {
+      "id": "rom", "title": "Royal Ontario Museum ticket warnings", "place": "Toronto, ON", "sector": "Attraction tickets", "outcome": "Warning issued",
+      "summary": "The museum warns visitors about unofficial websites offering false or unauthorized ticket discounts.",
+      "domains": [],
+      "events": [
+        {"date": "2026-11-22", "dateKind": "Notice reviewed", "title": "Museum flags unofficial ticket discounts", "detail": "ROM’s visitor guidance directs buyers to its own tickets page and warns about third-party offers. The cited guidance identifies no individual suspect domain.", "publisher": "Royal Ontario Museum", "source": "https://www.rom.on.ca/visit/visitor-information"}
+      ],
+      "gap": "There is no domain-level disposition or first complaint date in this notice. Counts of counterfeit-ticket inquiries would describe a different outcome from confirmed site removals."
+    },
+    {
+      "id": "cra", "title": "Canada Revenue Agency impersonation", "place": "Canada", "sector": "Government services", "outcome": "Aggregate removals reported",
+      "summary": "CRA describes a recurring program to remove phishing websites that impersonate the agency.",
+      "domains": [],
+      "events": [
+        {"date": "2025-12-17", "dateKind": "Report published", "title": "CRA describes removal volume", "detail": "The agency reports working with partners to take down hundreds of impersonating websites during the preceding year.", "publisher": "Canada Revenue Agency", "source": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2025/how-cra-is-keeping-information-safe.html"},
+        {"date": "2026-10-01", "dateKind": "Update published", "title": "Annual takedown activity reported again", "detail": "CRA again describes removing hundreds of sites each year. Neither statement supplies monthly figures or the method for counting sites.", "publisher": "Canada Revenue Agency", "source": "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2026/protecting-taxpayer-information.html"}
+      ],
+      "gap": "An existing monthly table underlying the December 2025 figure, including its definition of a website and reporting period, would supply a measurable baseline. The two announcements have overlapping coverage."
+    },
+    {
+      "id": "csa", "title": "Investment website disruption program", "place": "Canada", "sector": "Investment services", "outcome": "Aggregate removals reported",
+      "summary": "Canadian securities regulators publish cumulative counts of investment platforms and crypto scam sites they helped deactivate.",
+      "domains": [],
+      "events": [
+        {"date": "2026-03-03", "dateKind": "Report published", "title": "First eight months reported", "detail": "CSA reported more than 7,586 platforms and sites deactivated between June 5, 2025 and February 12, 2026.", "publisher": "Canadian Securities Administrators", "source": "https://www.securities-administrators.ca/news/canadian-securities-regulators-release-updated-numbers-on-disarming-more-than-7500-fraudulent-investment-websites/"},
+        {"date": "2026-09-08", "dateKind": "Page updated", "title": "First-year total reaches 11,728 websites", "detail": "CSA credits its joint work with CIRO for 11,728 platforms and sites deactivated from June 5, 2025 through June 5, 2026. That total includes the earlier reporting period.", "publisher": "Canadian Securities Administrators", "source": "https://www.securities-administrators.ca/csa-activities/enforcement/digital-enforcement/"}
+      ],
+      "gap": "The annual page gives 11,728 sites. Its prose refers to more than 19,860 associated URLs and its graphic gives 19,680 URLs deactivated. A reconciliation of those units and the counts of referrals by outcome would clarify the series."
+    },
+    {
+      "id": "canadianhq", "title": "CanadianHQ marketplace shutdown", "place": "Québec and federal", "sector": "Phishing services", "outcome": "Site action confirmed",
+      "summary": "The CRTC traced a marketplace supplying phishing and spam services. Its public notices and a completed access request document separate steps.",
+      "domains": [],
+      "events": [
+        {"date": "2019-01", "dateKind": "Investigation opened", "title": "CRTC opens its investigation", "detail": "The commission’s subsequent notice dates the start of its CanadianHQ investigation to January 2019.", "publisher": "CRTC · notice of violation", "source": "https://crtc.gc.ca/eng/archive/2022/vt220117.htm"},
+        {"date": "2022-01-26", "dateKind": "Enforcement announcement", "title": "CRTC confirms the marketplace went offline", "detail": "The commission reported that the site went offline following warrants executed in 2020 and 2021. The announcement also described penalties totalling $300,000.", "publisher": "CRTC · news release", "source": "https://www.canada.ca/en/radio-television-telecommunications/news/2022/01/crtc-investigation-targets-dark-web-marketplace-vendors-and-administrator.html"},
+        {"date": "2024-08", "dateKind": "ATIP completion month", "title": "53-page release indexed", "detail": "The completed-request index lists a partial disclosure on the CanadianHQ enforcement action under number A-2021-00059. This entry describes the index record.", "publisher": "Government of Canada · ATIP index", "source": "https://search.open.canada.ca/ati/record/crtc,2024,8,A-2021-00059"}
+      ],
+      "record": "https://coolcode.ca/atip/#q=A-2021-00059&institution=crtc&year=2024&record=crtc%2C2024%2C8%2CA-2021-00059",
+      "gap": "The announcement confirms a shutdown but gives no exact shutdown day. The 53-page release is an existing source to inspect before considering another request."
+    }
+  ]
+}
