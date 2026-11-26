@@ -19,3 +19,8 @@ The web app makes no external case-data requests. The common CoolCode counter co
 ## Build and verify
 
 Run `node --test tests/*.test.mjs`, `python3 -m unittest discover -s tests -v`, then `python3 scripts/build.py`. To check the interface, install the test dependency in `tests/browser-requirements.txt` and Playwright Chromium, then run `python3 tests/browser_smoke.py`. GitHub Actions publishes the built site from main. To extend the register, add a sourced case to the JSON file, review the date labels, update the edition date and run the same checks.
+
+## Ready-to-use examples
+
+- [Capilano Suspension Bridge Ticket Warnings](https://coolcode.ca/scamtrace/capilano-ticket-warnings.html). Read the park’s published ticket warning and follow the cited source before buying tickets. The timeline distinguishes the date a notice was reviewed from the date of any reported event.
+- [Toronto Green P Parking Payment Warnings](https://coolcode.ca/scamtrace/green-p-payment-warnings.html). Follow the reviewed public records about imitation parking payment pages. Each entry identifies its publisher and the reported action. The register preserves the limits of the evidence about individual sites.

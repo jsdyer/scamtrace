@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "capilano-ticket-warnings",
+    "title": "Capilano Suspension Bridge Ticket Warnings",
+    "description": "Read the park’s published ticket warning and follow the cited source before buying tickets. The timeline distinguishes the date a notice was reviewed from the date of any reported event.",
+    "setting": "case",
+    "value": "capilano"
+  },
+  {
+    "slug": "green-p-payment-warnings",
+    "title": "Toronto Green P Parking Payment Warnings",
+    "description": "Follow the reviewed public records about imitation parking payment pages. Each entry identifies its publisher and the reported action. The register preserves the limits of the evidence about individual sites.",
+    "setting": "case",
+    "value": "green-p"
+  }
+]

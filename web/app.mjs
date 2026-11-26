@@ -29,7 +29,7 @@ function caseUrl(id) {
 }
 
 function readCase() {
-  return new URLSearchParams(location.hash.slice(1)).get("case");
+  return new URLSearchParams(location.hash.slice(1)).get("case") || document.body.dataset.case;
 }
 
 function caseSelection(item) {

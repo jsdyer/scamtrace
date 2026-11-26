@@ -62,6 +62,9 @@ def main():
                 assert page.evaluate("document.documentElement.scrollWidth <= window.innerWidth")
                 page.screenshot(path=str(screenshots / "mobile.png"), full_page=True)
                 assert not errors, errors
+                page.goto(f'http://127.0.0.1:{server.server_port}/scamtrace/green-p-payment-warnings.html')
+                page.wait_for_function("document.querySelector('#case-title')?.textContent.includes('Green P')")
+                assert page.locator('link[rel="canonical"]').get_attribute('href') == 'https://coolcode.ca/scamtrace/green-p-payment-warnings.html'
                 browser.close()
             print("Browser checks passed: dossiers, filters, notes, export, permalinks and mobile layout")
         finally:

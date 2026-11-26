@@ -76,3 +76,9 @@ footer nav { display:flex; flex-wrap:wrap; gap:.5rem 1rem; margin:.7rem 0 1.2rem
   #case-list { max-height:12rem; overflow:auto; border-block:1px solid var(--line); }
   #dossier { padding:.7rem 0; }
 }
+
+.task-entries { display: flex; flex-wrap: wrap; gap: .55rem 1.1rem; margin: .8rem 0; }
+.task-entries a { color: inherit; text-decoration: underline; text-underline-offset: .18em; }
+.task-entries a:first-child { font-weight: bold; }
+.tool-name { font-size: .95rem; margin: .25rem 0; }
+h1 { overflow-wrap: anywhere; }
